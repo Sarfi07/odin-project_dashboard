@@ -57,3 +57,38 @@
             grid-row: 2 / 3;
             background-color: green;
         }
+h1[text] {
+    text-align: right;
+
+}
+ul {
+    list-style: none;
+}
+li {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 2rem 0 2rem;
+  
+}
+li > .svg {
+    height: 1.5rem;  
+}
+li > span.text {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+h1 {
+    padding: 8px;
+}
+
+.svg {
+    height: 2rem;
+    text-align: left;
+}
+
+.sidebar-subSection {
+    margin: 1.2rem 0;
+    margin-bottom: 3rem;
+}
